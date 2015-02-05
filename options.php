@@ -5,8 +5,8 @@
 <?php settings_fields('whatconverts'); ?>
 <table class="form-table">
 <tr valign="top">
-<th scope="row">Account ID:</th>
-<td><input type="text" name="whatconverts_account_id" value="<?php echo get_option('whatconverts_account_id'); ?>" /></td>
+<th scope="row">Profile ID:</th>
+<td><input type="text" name="whatconverts_profile_id" value="<?php echo get_option('whatconverts_profile_id'); ?>" /></td>
 </tr>
 </table>
 <input type="hidden" name="action" value="update" />

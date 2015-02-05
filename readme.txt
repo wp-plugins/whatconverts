@@ -3,23 +3,22 @@ Contributors: WhatConverts
 Tags: javascript, whatconverts
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 1.0.1.1
+Stable tag: 1.0.2
 
 Enables WhatConverts on all pages.
 
 == Description ==
 
-This plugin adds the required javascript for WhatConverts.
+This plugin adds the required tracking code for WhatConverts.
 
-For more information visit:
-
-[WhatConverts](http://www.whatconverts.com/)
+For more information visit: [WhatConverts](http://www.whatconverts.com/)
 
 == Installation ==
 
-1. Upload 'whatconverts' directory to the '/wp-content/plugins/' directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Add the account ID from WhatConverts (00000) to the settings
+1. Upload 'whatconverts' directory to your plugins directory
+2. Activate the plugin through the plugins menu in WordPress
+3. Navigate to the plugin settings, 'Settings' > 'WhatConverts'
+4. Add your Profile ID from WhatConverts (00000)
 
 == Screenshots ==
 
