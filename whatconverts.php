@@ -3,7 +3,7 @@
 Plugin Name: WhatConverts
 Plugin URI: http://wordpress.org/extend/plugins/whatconverts/
 Description: Enables <a href="http://www.whatconverts.com/">WhatConverts</a> on all pages.
-Version: 1.0.1
+Version: 1.0.1.1
 Author: WhatConverts
 Author URI: http://www.whatconverts.com/
 */
@@ -33,7 +33,7 @@ function options_page_whatconverts() {
 
 function whatconverts() {
 	$whatconverts_account_id = get_option('whatconverts_account_id');
-	if (!empty($whatconverts_account_id) || $whatconverts_account_id != '00000') 
+	if ($whatconverts_account_id != '00000') 
 		wp_enqueue_script( 'whatconverts-tracking-script', '//scripts.whatconverts.com/account/' . $whatconverts_account_id . '.js', array(), '', true );
 }
 
