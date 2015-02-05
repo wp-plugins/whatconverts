@@ -12,15 +12,15 @@ if (!defined('WP_PLUGIN_DIR'))
 	define('WP_PLUGIN_DIR',plugins_url());
 	  
 function activate_whatconverts() {
-	add_option('account_id', '00000');
+	add_option('whatconverts_account_id', '00000');
 }
 
 function deactive_whatconverts() {
-	delete_option('account_id');
+	delete_option('whatconverts_account_id');
 }
 
 function admin_init_whatconverts() {
-	register_setting('whatconverts', 'account_id');
+	register_setting('whatconverts', 'whatconverts_account_id');
 }
 
 function admin_menu_whatconverts() {
@@ -32,9 +32,9 @@ function options_page_whatconverts() {
 }
 
 function whatconverts() {
-	$account_id = get_option('account_id');
-	wp_enqueue_script( 'whatconverts-tracking-script', '//scripts.whatconverts.com/account/' . $account_id . '.js', array(), '', true );
-
+	$whatconverts_account_id = get_option('whatconverts_account_id');
+	if (!empty($whatconverts_account_id) || $whatconverts_account_id != '00000') 
+		wp_enqueue_script( 'whatconverts-tracking-script', '//scripts.whatconverts.com/account/' . $whatconverts_account_id . '.js', array(), '', true );
 }
 
 register_activation_hook(__FILE__, 'activate_whatconverts');
