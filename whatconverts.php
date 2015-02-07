@@ -34,7 +34,7 @@ function options_page_whatconverts() {
 function whatconverts() {
 	$whatconverts_profile_id = get_option('whatconverts_profile_id');
 	if ($whatconverts_profile_id != '00000') 
-		wp_enqueue_script( 'whatconverts-tracking-script', '//scripts.whatconverts.com/account/' . $whatconverts_profile_id . '.js', array(), '', true );
+		wp_enqueue_script( 'whatconverts-tracking-script', '//scripts.whatconverts.com/profile/' . $whatconverts_profile_id . '.js', array(), '', true );
 }
 
 register_activation_hook(__FILE__, 'activate_whatconverts');
