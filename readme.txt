@@ -5,7 +5,7 @@ Requires at least: 3.0
 Tested up to: 4.1
 Stable tag: 1.0.2
 
-Enables WhatConverts on all pages.
+Enables WhatConverts on all pages. To setup, 1) Navigate to the plugin settings, 'Settings' > 'WhatConverts', 2) Add your Profile ID from [WhatConverts](http://www.whatconverts.com/)
 
 == Description ==
 
@@ -18,7 +18,7 @@ For more information visit: [WhatConverts](http://www.whatconverts.com/)
 1. Upload 'whatconverts' directory to your plugins directory
 2. Activate the plugin through the plugins menu in WordPress
 3. Navigate to the plugin settings, 'Settings' > 'WhatConverts'
-4. Add your Profile ID from WhatConverts (00000)
+4. Add your Profile ID from [WhatConverts](http://www.whatconverts.com/)
 
 == Screenshots ==
 

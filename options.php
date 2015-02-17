@@ -3,6 +3,7 @@
 <form method="post" action="options.php">
 <?php wp_nonce_field('update-options'); ?>
 <?php settings_fields('whatconverts'); ?>
+<p>Don't have your Profile ID? Visit <a href="http://www.whatconverts.com/">WhatConverts</a> and under your profile select 'Settings' > 'Tracking Code'.</p>
 <table class="form-table">
 <tr valign="top">
 <th scope="row">Profile ID:</th>
@@ -11,5 +12,6 @@
 </table>
 <input type="hidden" name="action" value="update" />
 <p class="submit"><input type="submit" class="button-primary" value="<?php _e('Save Changes') ?>" /></p>
+<p>Once you have added your Profile ID, visit <a href="http://www.whatconverts.com/">WhatConverts</a> to confirm you have added Web Forms to track.</p>
 </form>
 </div>
