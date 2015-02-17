@@ -5,13 +5,13 @@ Requires at least: 3.0
 Tested up to: 4.1
 Stable tag: 1.0.2
 
-Enables WhatConverts on all pages. To setup, 1) Navigate to the plugin settings, 'Settings' > 'WhatConverts', 2) Add your Profile ID from [WhatConverts](http://www.whatconverts.com/)
+Enables WhatConverts on all pages.
 
 == Description ==
 
 This plugin adds the required tracking code for WhatConverts.
 
-For more information visit: [WhatConverts](http://www.whatconverts.com/)
+For more information visit, [WhatConverts](http://www.whatconverts.com/).
 
 == Installation ==
 
