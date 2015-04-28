@@ -2,10 +2,10 @@
 /*
 Plugin Name: WhatConverts
 Plugin URI: http://wordpress.org/extend/plugins/whatconverts/
-Description: Enables <a href="http://www.whatconverts.com/">WhatConverts</a> on all pages. To setup, 1) Navigate to the plugin settings, 'Settings' > 'WhatConverts', 2) Add your Profile ID from <a href="http://app.whatconverts.com/">WhatConverts</a>.
+Description: Enables <a href="https://www.whatconverts.com/">WhatConverts</a> on all pages. To setup, 1) Navigate to the plugin settings, 'Settings' > 'WhatConverts', 2) Add your Profile ID from <a href="http://app.whatconverts.com/">WhatConverts</a>.
 Version: 1.0.2
 Author: WhatConverts
-Author URI: http://www.whatconverts.com/
+Author URI: https://www.whatconverts.com/
 */
 	  
 if (!defined('WP_PLUGIN_DIR'))
