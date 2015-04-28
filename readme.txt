@@ -1,6 +1,6 @@
 === WhatConverts ===
 Contributors: WhatConverts
-Tags: javascript, whatconverts
+Tags: whatconverts, call tracking, analytics call tracking, goal tracking, form tracking, form metrics, form analytics, conversion optimization, CRO, adwords call tracking
 Requires at least: 3.0
 Tested up to: 4.2
 Stable tag: 1.0.2
